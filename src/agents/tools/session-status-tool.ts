@@ -253,7 +253,7 @@ export function createSessionStatusTool(opts?: {
   config?: OpenClawConfig;
 }): AnyAgentTool {
   return {
-    label: "Session Status",
+    label: "系统状态",
     name: "session_status",
     description:
       "Show a /status-equivalent session status card (usage + time + cost when available). Use for model-use questions (📊 session_status). Optional: set per-session model override (model=default resets overrides).",

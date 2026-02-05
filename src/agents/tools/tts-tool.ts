@@ -18,7 +18,7 @@ export function createTtsTool(opts?: {
   agentChannel?: GatewayMessageChannel;
 }): AnyAgentTool {
   return {
-    label: "TTS",
+    label: "语音合成",
     name: "tts",
     description:
       "Convert text to speech and return a MEDIA: path. Use when the user requests audio or TTS is enabled. Copy the MEDIA line exactly.",

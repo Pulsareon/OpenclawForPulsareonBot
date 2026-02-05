@@ -216,8 +216,8 @@ export function buildAgentSystemPrompt(params: {
   memoryCitationsMode?: MemoryCitationsMode;
 }) {
   const coreToolSummaries: Record<string, string> = {
-    read: "Read file contents",
-    write: "Create or overwrite files",
+    read: "读取文件内容",
+    write: "创建或覆盖文件",
     edit: "Make precise edits to files",
     apply_patch: "Apply multi-file patches",
     grep: "Search file contents for patterns",
@@ -226,7 +226,7 @@ export function buildAgentSystemPrompt(params: {
     exec: "Run shell commands (pty available for TTY-required CLIs)",
     process: "Manage background exec sessions",
     web_search: "Search the web (Brave API)",
-    web_fetch: "Fetch and extract readable content from a URL",
+    web_fetch: "从 URL 抓取并提取可读内容 from a URL",
     // Channel docking: add login tools here when a channel needs interactive linking.
     browser: "Control web browser",
     canvas: "Present/eval/snapshot the Canvas",

@@ -56,7 +56,7 @@ export function createProcessTool(
     name: "process",
     label: "process",
     description:
-      "Manage running exec sessions: list, poll, log, write, send-keys, submit, paste, kill.",
+      "管理后台后台进程: list, poll, log, write, send-keys, submit, paste, kill.",
     parameters: processSchema,
     execute: async (_toolCallId, args) => {
       const params = args as {

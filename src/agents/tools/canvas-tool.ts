@@ -50,7 +50,7 @@ const CanvasToolSchema = Type.Object({
 
 export function createCanvasTool(): AnyAgentTool {
   return {
-    label: "Canvas",
+    label: "画布控制",
     name: "canvas",
     description:
       "Control node canvases (present/hide/navigate/eval/snapshot/A2UI). Use snapshot to capture the rendered UI.",

@@ -473,10 +473,10 @@ export function createWebSearchTool(options?: {
   const description =
     provider === "perplexity"
       ? "Search the web using Perplexity Sonar (direct or via OpenRouter). Returns AI-synthesized answers with citations from real-time web search."
-      : "Search the web using Brave Search API. Supports region-specific and localized search via country and language parameters. Returns titles, URLs, and snippets for fast research.";
+      : "使用 Brave API 搜索互联网 Search API. Supports region-specific and localized search via country and language parameters. Returns titles, URLs, and snippets for fast research.";
 
   return {
-    label: "Web Search",
+    label: "网页搜索",
     name: "web_search",
     description,
     parameters: WebSearchSchema,

@@ -649,10 +649,10 @@ export function createWebFetchTool(options?: {
     (fetch && "userAgent" in fetch && typeof fetch.userAgent === "string" && fetch.userAgent) ||
     DEFAULT_FETCH_USER_AGENT;
   return {
-    label: "Web Fetch",
+    label: "网页提取",
     name: "web_fetch",
     description:
-      "Fetch and extract readable content from a URL (HTML → markdown/text). Use for lightweight page access without browser automation.",
+      "从 URL 抓取并提取可读内容 from a URL (HTML → markdown/text). Use for lightweight page access without browser automation.",
     parameters: WebFetchSchema,
     execute: async (_toolCallId, args) => {
       const params = args as Record<string, unknown>;

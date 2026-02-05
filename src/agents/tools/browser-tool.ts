@@ -225,7 +225,7 @@ export function createBrowserTool(opts?: {
   const hostHint =
     opts?.allowHostControl === false ? "Host target blocked by policy." : "Host target allowed.";
   return {
-    label: "Browser",
+    label: "浏览器控制",
     name: "browser",
     description: [
       "Control the browser via OpenClaw's browser control server (status/start/stop/profiles/tabs/open/snapshot/screenshot/actions).",

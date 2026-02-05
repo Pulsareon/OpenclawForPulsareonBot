@@ -100,7 +100,7 @@ export function createNodesTool(options?: {
     config: options?.config,
   });
   return {
-    label: "Nodes",
+    label: "节点控制",
     name: "nodes",
     description:
       "Discover and control paired nodes (status/describe/pairing/notify/camera/screen/location/run/invoke).",

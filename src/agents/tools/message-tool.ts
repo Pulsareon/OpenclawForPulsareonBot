@@ -394,7 +394,7 @@ export function createMessageTool(options?: MessageToolOptions): AnyAgentTool {
   });
 
   return {
-    label: "Message",
+    label: "消息管理",
     name: "message",
     description,
     parameters: schema,

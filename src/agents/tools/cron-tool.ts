@@ -155,7 +155,7 @@ async function buildReminderContextLines(params: {
 
 export function createCronTool(opts?: CronToolOptions): AnyAgentTool {
   return {
-    label: "Cron",
+    label: "定时任务",
     name: "cron",
     description: `Manage Gateway cron jobs (status/list/add/update/remove/run/runs) and send wake events.
 

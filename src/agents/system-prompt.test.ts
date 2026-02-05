@@ -124,7 +124,7 @@ describe("buildAgentSystemPrompt", () => {
       docsPath: "/tmp/openclaw/docs",
     });
 
-    expect(prompt).toContain("- Read: Read file contents");
+    expect(prompt).toContain("- Read: 读取文件内容");
     expect(prompt).toContain("- Exec: Run shell commands");
     expect(prompt).toContain(
       "- If exactly one skill clearly applies: read its SKILL.md at <location> with `Read`, then follow it.",
