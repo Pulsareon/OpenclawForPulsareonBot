@@ -139,7 +139,7 @@ export function registerDevicesCli(program: Command) {
                 { key: "Device", header: "Device", minWidth: 16, flex: true },
                 { key: "Role", header: "Role", minWidth: 8 },
                 { key: "IP", header: "IP", minWidth: 12 },
-                { key: "Age", header: "Age", minWidth: 8 },
+                { key: "Age", header: "时长 (Age)", minWidth: 8 },
                 { key: "Flags", header: "Flags", minWidth: 8 },
               ],
               rows: list.pending.map((req) => ({
@@ -165,7 +165,7 @@ export function registerDevicesCli(program: Command) {
                 { key: "Device", header: "Device", minWidth: 16, flex: true },
                 { key: "Roles", header: "Roles", minWidth: 12, flex: true },
                 { key: "Scopes", header: "Scopes", minWidth: 12, flex: true },
-                { key: "Tokens", header: "Tokens", minWidth: 12, flex: true },
+                { key: "Tokens", header: "令牌 (Tokens)", minWidth: 12, flex: true },
                 { key: "IP", header: "IP", minWidth: 12 },
               ],
               rows: list.paired.map((device) => ({

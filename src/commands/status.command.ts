@@ -481,10 +481,10 @@ export async function statusCommand(
     renderTable({
       width: tableWidth,
       columns: [
-        { key: "Channel", header: "Channel", minWidth: 10 },
-        { key: "Enabled", header: "Enabled", minWidth: 7 },
-        { key: "State", header: "State", minWidth: 8 },
-        { key: "Detail", header: "Detail", flex: true, minWidth: 24 },
+        { key: "Channel", header: "渠道 (Channel)", minWidth: 10 },
+        { key: "Enabled", header: "开启 (Enabled)", minWidth: 7 },
+        { key: "State", header: "状态 (State)", minWidth: 8 },
+        { key: "Detail", header: "详情 (Detail)", flex: true, minWidth: 24 },
       ],
       rows: channels.rows.map((row) => {
         const issues = channelIssuesByChannel.get(row.id) ?? [];
@@ -516,11 +516,11 @@ export async function statusCommand(
     renderTable({
       width: tableWidth,
       columns: [
-        { key: "Key", header: "Key", minWidth: 20, flex: true },
-        { key: "Kind", header: "Kind", minWidth: 6 },
-        { key: "Age", header: "Age", minWidth: 9 },
-        { key: "Model", header: "Model", minWidth: 14 },
-        { key: "Tokens", header: "Tokens", minWidth: 16 },
+        { key: "Key", header: "密钥 (Key)", minWidth: 20, flex: true },
+        { key: "Kind", header: "类型 (Kind)", minWidth: 6 },
+        { key: "Age", header: "时长 (Age)", minWidth: 9 },
+        { key: "Model", header: "模型 (Model)", minWidth: 14 },
+        { key: "Tokens", header: "令牌 (Tokens)", minWidth: 16 },
       ],
       rows:
         summary.sessions.recent.length > 0
@@ -608,7 +608,7 @@ export async function statusCommand(
         columns: [
           { key: "Item", header: "Item", minWidth: 10 },
           { key: "Status", header: "Status", minWidth: 8 },
-          { key: "Detail", header: "Detail", flex: true, minWidth: 28 },
+          { key: "Detail", header: "详情 (Detail)", flex: true, minWidth: 28 },
         ],
         rows,
       }).trimEnd(),

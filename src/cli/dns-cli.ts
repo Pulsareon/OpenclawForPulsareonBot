@@ -139,7 +139,7 @@ export function registerDnsCli(program: Command) {
         renderTable({
           width: tableWidth,
           columns: [
-            { key: "Key", header: "Key", minWidth: 18 },
+            { key: "Key", header: "密钥 (Key)", minWidth: 18 },
             { key: "Value", header: "Value", minWidth: 24, flex: true },
           ],
           rows: [

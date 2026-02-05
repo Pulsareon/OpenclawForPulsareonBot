@@ -111,10 +111,10 @@ export async function buildStatusAllReportLines(params: {
   const channelsTable = renderTable({
     width: tableWidth,
     columns: [
-      { key: "Channel", header: "Channel", minWidth: 10 },
-      { key: "Enabled", header: "Enabled", minWidth: 7 },
-      { key: "State", header: "State", minWidth: 8 },
-      { key: "Detail", header: "Detail", flex: true, minWidth: 28 },
+      { key: "Channel", header: "渠道 (Channel)", minWidth: 10 },
+      { key: "Enabled", header: "开启 (Enabled)", minWidth: 7 },
+      { key: "State", header: "状态 (State)", minWidth: 8 },
+      { key: "Detail", header: "详情 (Detail)", flex: true, minWidth: 28 },
     ],
     rows: channelRowsWithIssues,
   });

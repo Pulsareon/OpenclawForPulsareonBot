@@ -98,7 +98,7 @@ function renderObjectSummary(payload: unknown, opts: FormatOpts): string[] {
     renderTable({
       width: opts.width,
       columns: [
-        { key: "Key", header: "Key", minWidth: 16 },
+        { key: "Key", header: "密钥 (Key)", minWidth: 16 },
         { key: "Value", header: "Value", flex: true, minWidth: 24 },
       ],
       rows,
@@ -289,7 +289,7 @@ export function formatMessageCliText(result: MessageActionRunResult): string[] {
       renderTable({
         width: opts.width,
         columns: [
-          { key: "Channel", header: "Channel", minWidth: 10 },
+          { key: "Channel", header: "渠道 (Channel)", minWidth: 10 },
           { key: "Target", header: "Target", minWidth: 12, flex: true },
           { key: "Status", header: "Status", minWidth: 6 },
           { key: "Error", header: "Error", minWidth: 20, flex: true },

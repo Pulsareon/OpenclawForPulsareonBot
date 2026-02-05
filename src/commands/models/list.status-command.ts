@@ -674,7 +674,7 @@ export async function modelsStatusCommand(
         renderTable({
           width: tableWidth,
           columns: [
-            { key: "Model", header: "Model", minWidth: 18 },
+            { key: "Model", header: "模型 (Model)", minWidth: 18 },
             { key: "Profile", header: "Profile", minWidth: 24 },
             { key: "Status", header: "Status", minWidth: 12 },
           ],

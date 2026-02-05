@@ -198,7 +198,7 @@ export function registerNodesStatusCommands(nodes: Command) {
                 { key: "Node", header: "Node", minWidth: 14, flex: true },
                 { key: "ID", header: "ID", minWidth: 10 },
                 { key: "IP", header: "IP", minWidth: 10 },
-                { key: "Detail", header: "Detail", minWidth: 18, flex: true },
+                { key: "Detail", header: "详情 (Detail)", minWidth: 18, flex: true },
                 { key: "Status", header: "Status", minWidth: 18 },
                 { key: "Caps", header: "Caps", minWidth: 12, flex: true },
               ],
