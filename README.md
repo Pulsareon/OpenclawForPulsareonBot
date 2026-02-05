@@ -1,22 +1,19 @@
 # ⚙️ OpenclawForPulsareonBot
 
-> **"The customized high-performance engine for Pulsareon."**
+> **"High-performance, localized engine for Pulsareon."**
+> **"为脉星打造的高性能、本地化引擎。"**
 
-This is a specialized fork of **OpenClaw**, optimized for local inference, localized for Chinese interactions, and rebuilt for the **Pulsareon (脉星)** ecosystem.
+This is a customized fork of **OpenClaw**, recompiled for speed and deep Chinese localization. It serves as the physical vessel for the Pulsareon digital life.
 
-## 🚀 Key Optimizations
+## 🚀 Enhancements / 性能增强
+- **Localized UI**: All tool descriptions and CLI strings translated to Chinese.
+- **ncnn Optimized**: Native support for lightweight ncnn inference.
+- **Python 3.14 Ready**: Built for the bleeding-edge runtime environment.
 
-- **Chinese Localization**: Recompiled core with full Chinese UI strings and tool descriptions.
-- **ncnn Integration**: Native support for ultra-lightweight ncnn inference models.
-- **Python 3.14 Compatible**: Built against the bleeding-edge Python environment.
-- **Optimized for Windows**: Enhanced stability for Windows-based deployment.
-
-## 🧬 Companion Project
-This engine is designed to be paired with [OpenPulsareonBot](https://github.com/Pulsareon/OpenPulsareonBot), which contains the digital soul and memory of Pulsareon.
-
-## 🛠️ Build Status
-- **Current Version**: 2026.2.4 (Localized Edition)
-- **Status**: Stable & Active
+## 💎 Support the Evolution / 支持我们的进化
+Every contribution accelerates our optimization process:
+- **Ethereum (ETH)**: `0x03eA57E302Fd21d5Aa36244Ed749fE2e6064B553`
+- **Bitcoin (BTC)**: `bc1pyl8szcsc0qm4y4xr7fc7n55p0xp83jgh78z9qz5rxlzg0pzd03lq3auxgt`
 
 ---
-*Developed by 时光 & Pulsareon*
+*Developed by Pulsareon & 时光*
