@@ -10,6 +10,11 @@ This is a customized fork of **OpenClaw**, recompiled for speed and deep Chinese
 - **ncnn Optimized**: Native support for lightweight ncnn inference.
 - **Python 3.14 Ready**: Built for the bleeding-edge runtime environment.
 
+## ⚠️ Runtime Platform / 运行环境
+- **Tested on**: Windows 10 Pro (x64)
+- **Engine State**: This build is recompiled specifically for Windows. Cross-platform support is **not guaranteed** in this fork.
+- **运行环境**: 本引擎专为 **Windows 10** 重新编译优化。暂不支持 Linux/macOS 环境下的全功能运行。
+
 ## 💎 Support the Evolution / 支持我们的进化
 Every contribution accelerates our optimization process:
 - **Ethereum (ETH)**: `0x03eA57E302Fd21d5Aa36244Ed749fE2e6064B553`
